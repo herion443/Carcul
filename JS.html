@@ -1,0 +1,11 @@
+let display = document.getElementById('display');
+let currentNumber = '';
+let previousNumber = '';
+let operator = '';
+
+function appendNumber(number) {
+    currentNumber += number;
+    updateDisplay();
+}
+
+function appendOperator(op) {
