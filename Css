@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operator, .number, .clear, .decimal, .equal {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #f0f0f0;
+}
+
+.clear, .decimal {
+    background-color: #e0e0e0;
+}
+
+.equal {
+    background-color: #0099ff;
+    width: 100px; /* Ширина кнопки "=" на два елементи */
+}
